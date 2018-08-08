@@ -10,8 +10,8 @@ import random
 audio_path = "Audio/"
 output_path = "Output/"
 
-clean_files = glob.glob(os.path.join(audio_path, '*.wav')
-noise_files = glob.glob(os.path.join(audio_path, '*.flac')
+clean_files = glob.glob(os.path.join(audio_path, '*.wav'))
+noise_files = glob.glob(os.path.join(audio_path, '*.flac'))
 
 counter = 0
 
